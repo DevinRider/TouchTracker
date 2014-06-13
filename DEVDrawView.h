@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DEVDrawView : NSObject
+@interface DEVDrawView : UIView
 
 @end

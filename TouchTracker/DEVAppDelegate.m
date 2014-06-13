@@ -7,6 +7,7 @@
 //
 
 #import "DEVAppDelegate.h"
+#import "DEVDrawViewController.h"
 
 @implementation DEVAppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    DEVDrawViewController *dvc = [[DEVDrawViewController alloc] init];
+    
+    self.window.rootViewController = dvc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

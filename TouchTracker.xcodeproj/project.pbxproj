@@ -19,6 +19,9 @@
 		E05559AA194A068A002A7957 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0555992194A068A002A7957 /* UIKit.framework */; };
 		E05559B2194A068A002A7957 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05559B0194A068A002A7957 /* InfoPlist.strings */; };
 		E05559B4194A068A002A7957 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E05559B3194A068A002A7957 /* TouchTrackerTests.m */; };
+		E05559BF194A069F002A7957 /* DEVLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E05559BE194A069F002A7957 /* DEVLine.m */; };
+		E05559C2194A06F8002A7957 /* DEVDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = E05559C1194A06F8002A7957 /* DEVDrawView.m */; };
+		E05559C5194A0710002A7957 /* DEVDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05559C4194A0710002A7957 /* DEVDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		E05559AF194A068A002A7957 /* TouchTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		E05559B1194A068A002A7957 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05559B3194A068A002A7957 /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
+		E05559BD194A069F002A7957 /* DEVLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVLine.h; sourceTree = "<group>"; };
+		E05559BE194A069F002A7957 /* DEVLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVLine.m; sourceTree = "<group>"; };
+		E05559C0194A06F8002A7957 /* DEVDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVDrawView.h; sourceTree = "<group>"; };
+		E05559C1194A06F8002A7957 /* DEVDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVDrawView.m; sourceTree = "<group>"; };
+		E05559C3194A0710002A7957 /* DEVDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVDrawViewController.h; sourceTree = "<group>"; };
+		E05559C4194A0710002A7957 /* DEVDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,12 @@
 		E0555982194A068A002A7957 = {
 			isa = PBXGroup;
 			children = (
+				E05559BD194A069F002A7957 /* DEVLine.h */,
+				E05559BE194A069F002A7957 /* DEVLine.m */,
+				E05559C0194A06F8002A7957 /* DEVDrawView.h */,
+				E05559C1194A06F8002A7957 /* DEVDrawView.m */,
+				E05559C3194A0710002A7957 /* DEVDrawViewController.h */,
+				E05559C4194A0710002A7957 /* DEVDrawViewController.m */,
 				E0555994194A068A002A7957 /* TouchTracker */,
 				E05559AD194A068A002A7957 /* TouchTrackerTests */,
 				E055598D194A068A002A7957 /* Frameworks */,
@@ -240,6 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05559C5194A0710002A7957 /* DEVDrawViewController.m in Sources */,
+				E05559C2194A06F8002A7957 /* DEVDrawView.m in Sources */,
+				E05559BF194A069F002A7957 /* DEVLine.m in Sources */,
 				E055599F194A068A002A7957 /* DEVAppDelegate.m in Sources */,
 				E055599B194A068A002A7957 /* main.m in Sources */,
 			);
@@ -442,6 +460,7 @@
 				E05559B9194A068A002A7957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05559BA194A068A002A7957 /* Build configuration list for PBXNativeTarget "TouchTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +469,7 @@
 				E05559BC194A068A002A7957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
